@@ -1,0 +1,21 @@
+Error in installing WSL:-
+https://learn.microsoft.com/en-us/answers/questions/1187339/resolving-error-0x80370114-the-operation-could-not
+
+No Module named pexpect -:
+
+sudo apt update
+sudo apt-get install python3-pip
+
+
+sudo apt-get install git
+sudo apt-get install gitk git-gui
+
+Tools/environment_install/install-prereqs-ubuntu.sh -y
+
+After this, restart the WSL.
+
+then run.
+
+./waf configure --board PixHawk1
+./waf copter
+
