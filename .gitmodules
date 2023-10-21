@@ -4,3 +4,6 @@
 [submodule "dronekit-python"]
 	path = dronekit-python
 	url = https://github.com/DhruvAhlawat/dronekit-python.git
+[submodule "programs-dronekit"]
+	path = programs-dronekit
+	url = https://github.com/DhruvAhlawat/programs-dronekit.git
