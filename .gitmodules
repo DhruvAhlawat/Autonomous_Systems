@@ -1,3 +1,6 @@
 [submodule "ArduPilot"]
 	path = ArduPilot
 	url = https://github.com/DhruvAhlawat/ardupilot.git
+[submodule "dronekit-python"]
+	path = dronekit-python
+	url = https://github.com/DhruvAhlawat/dronekit-python.git
