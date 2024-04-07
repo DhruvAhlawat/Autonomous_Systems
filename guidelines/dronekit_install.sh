@@ -7,9 +7,10 @@
 
 #and then press enter and also your password if asked. The hashtag is not there in the command, it is just a starter for comment. Also you must be in the firectory where the dronekit_install.sh script is located.
 git clone https://github.com/DhruvAhlawat/programs-dronekit.git
+git clone https://github.com/dronekit/dronekit-python.git
 cd dronekit-python #This changes the current directory to dronekit-python
 
 #After the dronekit code is on your system, the following commands are used to install and setup dronekit. 
 
-sudo python setup.py build
-sudo python setup.py install
+sudo python3 setup.py build
+sudo python3 setup.py install
